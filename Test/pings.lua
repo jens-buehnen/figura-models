@@ -4,7 +4,7 @@ function pings.modelSize(dir)
 		modelSize = var
 		config:save("modelSize", modelSize)
 		pings.updateModel()
-		print("Model size:", modelSize)
+		print("Set model size to:", modelSize)
 	end
 end
 
