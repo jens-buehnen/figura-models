@@ -1,7 +1,13 @@
 function events.entity_init()
 	modelSize = config:load("modelSize")
+	toggleHead = config:load("toggleHead")
 	if modelSize == nil then
-		config:save("modelSize", 1)
+		modelSize = 1
+		config:save("modelSize", modelSize)
+	end
+	if toggleHead == nil then
+		toggleHead = true
+		config:save("toggleHead", toggleHead)
 	end
 	pings.updateModel()
 end
