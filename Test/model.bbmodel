@@ -1,0 +1,1045 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free"
+  },
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "Head",
+      "uuid": "1bef92ce-0dcb-494b-9e94-ad6f6b5edecd",
+      "origin": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "from": [
+        -4.0,
+        24.0,
+        -4.0
+      ],
+      "to": [
+        4.0,
+        32.0,
+        4.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            16.0,
+            8.0,
+            8.0,
+            0.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            24.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16.0,
+            8.0,
+            24.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            24.0,
+            8.0,
+            32.0,
+            16.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Hat",
+      "uuid": "fdf3b7ea-1b00-4d9c-9e7b-7ce134143fe6",
+      "origin": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "from": [
+        -4.0,
+        24.0,
+        -4.0
+      ],
+      "to": [
+        4.0,
+        32.0,
+        4.0
+      ],
+      "inflate": 0.5,
+      "faces": {
+        "up": {
+          "uv": [
+            48.0,
+            8.0,
+            40.0,
+            0.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            56.0,
+            0.0,
+            48.0,
+            8.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32.0,
+            8.0,
+            40.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            40.0,
+            8.0,
+            48.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48.0,
+            8.0,
+            56.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            56.0,
+            8.0,
+            64.0,
+            16.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Body",
+      "uuid": "8883f360-40b1-487c-8768-9fe15be61a62",
+      "origin": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "from": [
+        -4.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        4.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            28.0,
+            20.0,
+            20.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            36.0,
+            16.0,
+            28.0,
+            20.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16.0,
+            20.0,
+            20.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            20.0,
+            20.0,
+            28.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            28.0,
+            20.0,
+            32.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32.0,
+            20.0,
+            40.0,
+            32.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Jacket",
+      "uuid": "2771e5bb-8891-4b1a-a2f2-bef08f8a680f",
+      "origin": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "from": [
+        -4.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        4.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.25,
+      "faces": {
+        "up": {
+          "uv": [
+            28.0,
+            36.0,
+            20.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            36.0,
+            32.0,
+            28.0,
+            36.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16.0,
+            36.0,
+            20.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            20.0,
+            36.0,
+            28.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            28.0,
+            36.0,
+            32.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32.0,
+            36.0,
+            40.0,
+            48.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "LeftArm",
+      "uuid": "d8dbe3ed-f716-4afb-b6cf-a7ec85001390",
+      "origin": [
+        -5.0,
+        22.0,
+        0.0
+      ],
+      "from": [
+        -7.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        -4.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            39.0,
+            52.0,
+            36.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            42.0,
+            48.0,
+            39.0,
+            52.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32.0,
+            52.0,
+            36.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            36.0,
+            52.0,
+            39.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            39.0,
+            52.0,
+            43.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            43.0,
+            52.0,
+            46.0,
+            64.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Left Sleeve",
+      "uuid": "ded786a6-47a1-4934-8c53-6e916de21767",
+      "origin": [
+        -5.0,
+        22.0,
+        0.0
+      ],
+      "from": [
+        -7.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        -4.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.25,
+      "faces": {
+        "up": {
+          "uv": [
+            55.0,
+            52.0,
+            52.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            58.0,
+            48.0,
+            55.0,
+            52.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48.0,
+            52.0,
+            52.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            52.0,
+            52.0,
+            55.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            55.0,
+            52.0,
+            59.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            59.0,
+            52.0,
+            62.0,
+            64.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "RightArm",
+      "uuid": "f15ca8a3-93c6-4b50-8563-16c4a9952bc2",
+      "origin": [
+        5.0,
+        22.0,
+        0.0
+      ],
+      "from": [
+        4.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        7.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            47.0,
+            20.0,
+            44.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            50.0,
+            16.0,
+            47.0,
+            20.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            40.0,
+            20.0,
+            44.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            44.0,
+            20.0,
+            47.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            47.0,
+            20.0,
+            51.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            51.0,
+            20.0,
+            54.0,
+            32.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Right Sleeve",
+      "uuid": "7e3273a6-5d4f-492a-afeb-c2fddefbdbb6",
+      "origin": [
+        5.0,
+        22.0,
+        0.0
+      ],
+      "from": [
+        4.0,
+        12.0,
+        -2.0
+      ],
+      "to": [
+        7.0,
+        24.0,
+        2.0
+      ],
+      "inflate": 0.25,
+      "faces": {
+        "up": {
+          "uv": [
+            47.0,
+            36.0,
+            44.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            50.0,
+            32.0,
+            47.0,
+            36.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            40.0,
+            36.0,
+            44.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            44.0,
+            36.0,
+            47.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            47.0,
+            36.0,
+            51.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            51.0,
+            36.0,
+            54.0,
+            48.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "LeftLeg",
+      "uuid": "b6864bac-4e93-4fce-b53b-6e53044934b2",
+      "origin": [
+        -1.9,
+        12.0,
+        0.0
+      ],
+      "from": [
+        -3.9,
+        0.0,
+        -2.0
+      ],
+      "to": [
+        0.10000000000000009,
+        12.0,
+        2.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            24.0,
+            52.0,
+            20.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28.0,
+            48.0,
+            24.0,
+            52.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16.0,
+            52.0,
+            20.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            20.0,
+            52.0,
+            24.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            24.0,
+            52.0,
+            28.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            28.0,
+            52.0,
+            32.0,
+            64.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Left Pants",
+      "uuid": "9af22d57-e6fe-45db-a110-d4bcf780404f",
+      "origin": [
+        -1.9,
+        12.0,
+        0.0
+      ],
+      "from": [
+        -3.9,
+        0.0,
+        -2.0
+      ],
+      "to": [
+        0.10000000000000009,
+        12.0,
+        2.0
+      ],
+      "inflate": 0.25,
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            52.0,
+            4.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.0,
+            48.0,
+            8.0,
+            52.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0.0,
+            52.0,
+            4.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            4.0,
+            52.0,
+            8.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8.0,
+            52.0,
+            12.0,
+            64.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12.0,
+            52.0,
+            16.0,
+            64.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "RightLeg",
+      "uuid": "e9338049-1576-43f5-b217-807ade671b50",
+      "origin": [
+        1.9,
+        12.0,
+        0.0
+      ],
+      "from": [
+        -0.1,
+        0.0,
+        -2.0
+      ],
+      "to": [
+        3.9,
+        12.0,
+        2.0
+      ],
+      "inflate": 0.0,
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            20.0,
+            4.0,
+            16.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.0,
+            16.0,
+            8.0,
+            20.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0.0,
+            20.0,
+            4.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            4.0,
+            20.0,
+            8.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8.0,
+            20.0,
+            12.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12.0,
+            20.0,
+            16.0,
+            32.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    },
+    {
+      "name": "Right Pants",
+      "uuid": "db05c55f-5254-4652-802a-67661f08464e",
+      "origin": [
+        1.9,
+        12.0,
+        0.0
+      ],
+      "from": [
+        -0.1,
+        0.0,
+        -2.0
+      ],
+      "to": [
+        3.9,
+        12.0,
+        2.0
+      ],
+      "inflate": 0.25,
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            36.0,
+            4.0,
+            32.0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.0,
+            32.0,
+            8.0,
+            36.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0.0,
+            36.0,
+            4.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            4.0,
+            36.0,
+            8.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8.0,
+            36.0,
+            12.0,
+            48.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12.0,
+            36.0,
+            16.0,
+            48.0
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube"
+    }
+  ],
+  "outliner": [
+    {
+      "name": "root",
+      "uuid": "23461367-93d6-41b4-a338-7cbf3cfba208",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isOpen": true,
+      "children": [
+        {
+          "name": "Head",
+          "uuid": "05a8234b-d962-43c3-b286-b203d9c9892f",
+          "origin": [
+            0.0,
+            24.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "1bef92ce-0dcb-494b-9e94-ad6f6b5edecd",
+            "fdf3b7ea-1b00-4d9c-9e7b-7ce134143fe6"
+          ]
+        },
+        {
+          "name": "Body",
+          "uuid": "4a7e4890-c4c8-48be-9c2c-cce3cefd6166",
+          "origin": [
+            0.0,
+            24.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "8883f360-40b1-487c-8768-9fe15be61a62",
+            "2771e5bb-8891-4b1a-a2f2-bef08f8a680f"
+          ]
+        },
+        {
+          "name": "LeftArm",
+          "uuid": "83a12ede-5cf0-4bbf-bbe5-da8942c8668d",
+          "origin": [
+            -5.0,
+            22.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "d8dbe3ed-f716-4afb-b6cf-a7ec85001390",
+            "ded786a6-47a1-4934-8c53-6e916de21767"
+          ]
+        },
+        {
+          "name": "RightArm",
+          "uuid": "f6dac6a4-46cc-4990-8828-459002e9d5ca",
+          "origin": [
+            5.0,
+            22.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "f15ca8a3-93c6-4b50-8563-16c4a9952bc2",
+            "7e3273a6-5d4f-492a-afeb-c2fddefbdbb6"
+          ]
+        },
+        {
+          "name": "LeftLeg",
+          "uuid": "a340a6c7-ecdb-4326-af65-4832960eae31",
+          "origin": [
+            -1.9,
+            12.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "b6864bac-4e93-4fce-b53b-6e53044934b2",
+            "9af22d57-e6fe-45db-a110-d4bcf780404f"
+          ]
+        },
+        {
+          "name": "RightLeg",
+          "uuid": "568d3945-d9b1-4a5c-97b4-e6722a6cb8fa",
+          "origin": [
+            1.9,
+            12.0,
+            0.0
+          ],
+          "isOpen": true,
+          "children": [
+            "e9338049-1576-43f5-b217-807ade671b50",
+            "db05c55f-5254-4652-802a-67661f08464e"
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Skin",
+      "id": "0",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAqUExURbTU4VNhdOz4/W54jEPojVu89PSGhvjdcnv/o3vU//+npP/4mc3v/wAAADQpb54AAAAOdFJOU/////////////////8ARcDcyAAAAAlwSFlzAAAScQAAEnEB89x6jgAAAVJJREFUWEftle1OwzAMRTPoB4X2/V8XX+d4KU2LYGTiT44mRb5p7prYcdMGCW6AfIfpar4YvDjp9urUBgxMdIPnGABZqg2A6WIwwAgTzMD05Xwa3pxhXJxxenem+cOZh/xHw5jHccrjNOexpcG6Lsu6/qfBn7fwsAGQpd+nUTZRIO5peMUYXjEGsvRdlMkGuYTLgxdlnSQ9x4DXdcVQLKQJ5PMtxAHFwRwPzE/KQEditaE0KoVKn1I3E0dKSzpdR+oG3aC9AaUbZRuxCE2gI7HaaNQP7Gd6eZABYaeb9BwDXtcVQ7GQJpDPtxCHFgcWsQhNoCOx2kjWttWy1a7VqtXG9y383r6zjtQNukF7A0o3yjZiEZpAR2K1cXmZvrtE+/j8Olef+6+f9f21bmRQv/LPtxCHFgd2ERNaKg5xncbTNl/a+TGd3aAbNDLIpflgKW/bJ+sviX0rl094AAAAAElFTkSuQmCC",
+      "width": 64,
+      "height": 64,
+      "uv_width": 64,
+      "uv_height": 64
+    }
+  ]
+}
